@@ -1,0 +1,67 @@
+module datapath(
+						input [7:0]Q,
+						input [7:0]M,
+						input mux_e,
+						input load,
+						input sh,
+						input clr,
+						input clk,
+						output done,
+						output [16:0]Shout);
+wire [16:0]shift,
+reg  [16:0]muxout,
+wire xor_out;
+wire [7:0]sum1;
+wire [7:0]sum2;
+wire [7:0]mux_sum;
+reg [16:0]mux_shift;
+reg compa;
+wire [4:0]D;
+reg [4:0]Q;
+always @ (*)
+		begin
+				if (mux_e)
+					begin
+						muxout[0]   = 0;
+						muxout[8:1] = Q;
+						muxout[9:16]= 0;
+					end
+				else
+					begin
+						muxout = shift;
+					end
+		end
+
+assign 	xor_out = muxout[0]^muxout[1];
+assign   sum1 = (~M)	+ 1; 
+assign   mux_sum = (muxout[1])?sum1 : M;
+assign   sum2 = mux_sum + muxout[9:16];
+always @ (*)
+		begin
+				if (xor_out)
+					begin
+						mux_shift[8:0]   = muxout[8:0];
+						mux_shift[16:9]  = sum2;
+					end
+				else
+					begin
+						mux_shift = muxout;
+					end
+		end
+
+always @ (*)
+	if (Q == 17)
+		compa = 1;
+	else
+		compa = 0;
+assign D = Q + 1;
+
+always @ (posedge clk)
+	if(~compa)
+		Q <= D;
+	else 
+		Q<=0;
+		
+assign done = (Q == 0)? 1: 0;
+
+endcase

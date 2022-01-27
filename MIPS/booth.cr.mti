@@ -1,0 +1,16 @@
+C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/multiplier.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiplier
+-- Compiling module alu
+
+Top level modules:
+	multiplier
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/testebench.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/testebench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}

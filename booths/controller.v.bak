@@ -1,0 +1,35 @@
+module controller(
+	input go,
+	input clk,
+	input done,
+	input rstReg,
+	output muxe,
+	output ld,
+	output sh,
+	output clr
+	);
+	
+	reg S1, S0;
+	wire N1, N0;
+	
+	always @ (posedge clk)
+		begin
+			if(rstReg) begin
+				S1 <= 0;
+				S0 <= 0;
+			end
+			else begin
+				S1 <= N1;
+				S0 <= N0;
+			end
+		end
+		
+
+	assign muxe = (~S1&S0);
+	assign ld = (~S1&S0) || (S1&(~S0));
+	assign sh = (S1&S0);
+	assign clr = (~S1&(~S0)&go);
+	assign N1 = (~S1&S0) || (~done) || (S1&(~S0));
+	assign N0 = (~S0&go) || (S1&(~S0));
+	
+endmodule

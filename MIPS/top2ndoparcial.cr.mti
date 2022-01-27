@@ -1,0 +1,149 @@
+C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/top.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/topMips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/topMips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module topMips
+
+Top level modules:
+	topMips
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/decoder.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/registerMips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/registerMips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module registerMips
+
+Top level modules:
+	registerMips
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/ReducirBitMips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/ReducirBitMips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ReducirBitMips
+
+Top level modules:
+	ReducirBitMips
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/multiplier.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiplier
+-- Compiling module alu
+
+Top level modules:
+	multiplier
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/mux32bitMips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/mux32bitMips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux32bitMips
+
+Top level modules:
+	mux32bitMips
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/bitExtMips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/bitExtMips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bitExtMips
+
+Top level modules:
+	bitExtMips
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/dividir32Mips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/dividir32Mips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dividir32Mips
+
+Top level modules:
+	dividir32Mips
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/controlMips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/controlMips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module controlMips
+
+Top level modules:
+	controlMips
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/ALUMips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/ALUMips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALUMips
+
+Top level modules:
+	ALUMips
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/dataMemoryMips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/dataMemoryMips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dataMemoryMips
+
+Top level modules:
+	dataMemoryMips
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/identifyOpMips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/identifyOpMips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module identifyOpMips
+
+Top level modules:
+	identifyOpMips
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/ALUControlMips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/ALUControlMips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALUControlMips
+
+Top level modules:
+	ALUControlMips
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/testebench.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/testebench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/queue.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/queue.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module queue
+
+Top level modules:
+	queue
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/reducirBit26Mips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/reducirBit26Mips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reducirBit26Mips
+
+Top level modules:
+	reducirBit26Mips
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/mux5bitMips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/mux5bitMips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux5bitMips
+
+Top level modules:
+	mux5bitMips
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/romMips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/romMips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module romMips
+
+Top level modules:
+	romMips
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/testebenchtop.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/testebenchtop.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testbenchtop
+
+Top level modules:
+	testbenchtop
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/RegistersMips.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/RegistersMips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RegistersMips
+
+Top level modules:
+	RegistersMips
+
+} {} {}}

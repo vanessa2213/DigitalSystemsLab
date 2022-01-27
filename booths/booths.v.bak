@@ -1,0 +1,15 @@
+module booths(
+					input go,
+					input [7:0]M,
+					input [7:0]Q,
+					input clk,
+					output done,
+					input rstReg,
+					output [16:0]Result);
+					
+wire don, muxe, ld, sh,clr;
+controller c1(.go(go),.clk(clk),.done(don),.rstReg(rstReg),.muxe(muxe),.ld(ld),.sh(sh),.clr(clr));
+datapath   dp(.Q(Q),.M(M),.mux_e(muxe),.load(ld),.sh(sh),.clr(clr),.clk(clk),.done(don),.Shout(Result));
+assign done = don;
+
+endmodule

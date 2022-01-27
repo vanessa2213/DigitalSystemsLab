@@ -1,0 +1,29 @@
+C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/topBooths.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/topBooths.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module topBooths
+
+Top level modules:
+	topBooths
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/datapathBooths.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/datapathBooths.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module datapathBooths
+
+Top level modules:
+	datapathBooths
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/controllerBooths.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/controllerBooths.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module controllerBooths
+
+Top level modules:
+	controllerBooths
+
+} {} {}} C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/shiftreg.v {1 {vlog -work work -stats=none C:/Users/Dell/Desktop/proyecto2ndoparcialsistemas/shiftreg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shiftreg
+
+Top level modules:
+	shiftreg
+
+} {} {}}
