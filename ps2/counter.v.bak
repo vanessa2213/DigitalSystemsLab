@@ -1,0 +1,18 @@
+module counter(
+					input  clk
+					input  clr
+					output [5:0]cout);
+	wire sum;
+	reg Q;
+	assign sum = Q + 1;
+	
+	always @ (posedge clk or posedge clr)
+		 begin
+			if (~clk)
+				Q <= sum;
+			else if (clr)
+				Q <= 0;
+		 end
+	assign cout = Q;
+	
+endmodule

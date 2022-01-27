@@ -1,0 +1,25 @@
+module shiftreg (
+	input 		clk,
+	input 		rst,
+	input       load,
+	input       data,
+	input 		shren,
+	input  		din,
+	output [7:0] dout
+	);
+
+	reg [10:0] ShiftRegister;
+	
+	always @ (negedge clk or posedge rst) begin
+		if (rst)	// Active High Reset (if Active Low is needed just negate ~rst)
+			ShiftRegister <= 0;
+		else if (shren)	// Shift Enable input
+			ShiftRegister[10:0] <= {din,ShiftRegister[10:1]};
+		else if (load)  // Parallel Load input  ( has priority over shren )
+			ShiftRegister <= data;
+	end
+	
+	// Combinatorial Output, the output of the Right ShiftRegister is always the LSb
+	assign dout = ShiftRegister[9:2];
+	
+endmodule

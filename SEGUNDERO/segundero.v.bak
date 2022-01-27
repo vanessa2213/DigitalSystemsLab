@@ -1,0 +1,14 @@
+module segundero(
+						input button,
+						output [7:0]HEX1,
+						output [7:0]HEX0);
+endmodule
+
+module toHex0(input num,
+					output [7:0]HEX0);
+endmodule
+
+module toHex1(	input num,
+					output [7:0]HEX1);
+endmodule
+

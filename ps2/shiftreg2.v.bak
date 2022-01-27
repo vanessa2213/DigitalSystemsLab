@@ -1,0 +1,11 @@
+module shiftreg2( input 		clk,
+							input 		rst,
+							input       data,
+							input 		shren,
+							input  		din,
+							output [7:0] dout);
+	
+ 	
+  
+	
+endmodule
